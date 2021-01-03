@@ -9,9 +9,7 @@
 #include <cstdlib>
 #include <cmath>
 
-//#if !defined(_MSC_VER)
 using namespace std;
-//#endif
 
 double GetOneGaussianBySummation(){
     double result = 0;

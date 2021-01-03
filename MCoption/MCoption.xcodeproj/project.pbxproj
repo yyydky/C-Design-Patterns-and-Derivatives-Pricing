@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8E4B0D5625A179780098B265 /* SimpleMCMain1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D5525A179780098B265 /* SimpleMCMain1.cpp */; };
 		8E4B0D6125A183690098B265 /* Random1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D5F25A183690098B265 /* Random1.cpp */; };
+		8E4B0D6725A244D50098B265 /* PayOff1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D6525A244D50098B265 /* PayOff1.cpp */; };
+		8E4B0D6B25A249770098B265 /* SimpleMC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D6925A249770098B265 /* SimpleMC.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		8E4B0D5525A179780098B265 /* SimpleMCMain1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMCMain1.cpp; sourceTree = "<group>"; };
 		8E4B0D5F25A183690098B265 /* Random1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random1.cpp; sourceTree = "<group>"; };
 		8E4B0D6025A183690098B265 /* Random1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Random1.hpp; sourceTree = "<group>"; };
+		8E4B0D6525A244D50098B265 /* PayOff1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff1.cpp; sourceTree = "<group>"; };
+		8E4B0D6625A244D50098B265 /* PayOff1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PayOff1.hpp; sourceTree = "<group>"; };
+		8E4B0D6925A249770098B265 /* SimpleMC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC.cpp; sourceTree = "<group>"; };
+		8E4B0D6A25A249770098B265 /* SimpleMC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleMC.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				8E4B0D5525A179780098B265 /* SimpleMCMain1.cpp */,
 				8E4B0D5F25A183690098B265 /* Random1.cpp */,
 				8E4B0D6025A183690098B265 /* Random1.hpp */,
+				8E4B0D6525A244D50098B265 /* PayOff1.cpp */,
+				8E4B0D6625A244D50098B265 /* PayOff1.hpp */,
+				8E4B0D6925A249770098B265 /* SimpleMC.cpp */,
+				8E4B0D6A25A249770098B265 /* SimpleMC.hpp */,
 			);
 			path = MCoption;
 			sourceTree = "<group>";
@@ -125,6 +135,8 @@
 			files = (
 				8E4B0D6125A183690098B265 /* Random1.cpp in Sources */,
 				8E4B0D5625A179780098B265 /* SimpleMCMain1.cpp in Sources */,
+				8E4B0D6725A244D50098B265 /* PayOff1.cpp in Sources */,
+				8E4B0D6B25A249770098B265 /* SimpleMC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

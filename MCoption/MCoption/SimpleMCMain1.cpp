@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "Random1.hpp"
+#include "SimpleMC.hpp"
 #include <cmath>
 using namespace std;
 //https://zhuanlan.zhihu.com/p/134759744
@@ -45,11 +46,27 @@ int main(int argc, const char * argv[]) {
     double r = 0.0016;
     unsigned long NumberOfPaths = 1000000;
     
-    double result = SimpleMonteCarlo1(Expiry,
-                                      Strike,
-                                      Spot,
-                                      Vol,
-                                      r,
-                                      NumberOfPaths);
-    cout << "the price is " << result << endl;
+//    double result = SimpleMonteCarlo1(Expiry,
+//                                      Strike,
+//                                      Spot,
+//                                      Vol,
+//                                      r,
+//                                      NumberOfPaths);
+    PayOff callPayOff(Strike, PayOff::call);
+    PayOff putPayOff(Strike, PayOff::put);
+    
+    double resultCall = SimpleMonteCarlo2(callPayOff,
+                                          Expiry,
+                                          Spot,
+                                          Vol,
+                                          r,
+                                          NumberOfPaths);
+    double resultPut = SimpleMonteCarlo2(putPayOff,
+                                         Expiry,
+                                         Spot,
+                                         Vol,
+                                         r,
+                                         NumberOfPaths);
+    cout << "the call price is " << resultCall << endl;
+    cout << "the put price is " << resultPut << endl;
 }
