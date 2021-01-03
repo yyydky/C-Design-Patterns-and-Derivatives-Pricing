@@ -7,13 +7,15 @@
 
 #include <iostream>
 #include "Random1.hpp"
-#include "SimpleMC.hpp"
+//#include "SimpleMC.hpp"
+#include "SimpleMC2.hpp"
+#include "DoubleDigital.hpp"
 #include <cmath>
 using namespace std;
 //https://zhuanlan.zhihu.com/p/134759744
 //https://zhuanlan.zhihu.com/p/125633858
 
-double SimpleMonteCarlo1(double Expiry,
+double SimpleMonteCarlo(double Expiry,
                          double Strike,
                          double Spot,
                          double Vol,
@@ -45,15 +47,38 @@ int main(int argc, const char * argv[]) {
     double Vol = 0.407530933;
     double r = 0.0016;
     unsigned long NumberOfPaths = 1000000;
-    
+    double Low = 220;
+    double Up = 240;
+    //version 1
 //    double result = SimpleMonteCarlo1(Expiry,
 //                                      Strike,
 //                                      Spot,
 //                                      Vol,
 //                                      r,
 //                                      NumberOfPaths);
-    PayOff callPayOff(Strike, PayOff::call);
-    PayOff putPayOff(Strike, PayOff::put);
+    
+    //version 2
+//    PayOff callPayOff(Strike, PayOff::call);
+//    PayOff putPayOff(Strike, PayOff::put);
+//
+//    double resultCall = SimpleMonteCarlo2(callPayOff,
+//                                          Expiry,
+//                                          Spot,
+//                                          Vol,
+//                                          r,
+//                                          NumberOfPaths);
+//    double resultPut = SimpleMonteCarlo2(putPayOff,
+//                                         Expiry,
+//                                         Spot,
+//                                         Vol,
+//                                         r,
+//                                         NumberOfPaths);
+//    cout << "the call price is " << resultCall << endl;
+//    cout << "the put price is " << resultPut << endl;
+    
+    PayOffCall callPayOff(Strike);
+    PayOffPut putPayOff(Strike);
+    PayOffDoubleDigital thePayOff(Low, Up);
     
     double resultCall = SimpleMonteCarlo2(callPayOff,
                                           Expiry,
@@ -67,6 +92,14 @@ int main(int argc, const char * argv[]) {
                                          Vol,
                                          r,
                                          NumberOfPaths);
+    double resultDD = SimpleMonteCarlo2(thePayOff,
+                                        Expiry,
+                                        Spot,
+                                        Vol,
+                                        r,
+                                        NumberOfPaths);
     cout << "the call price is " << resultCall << endl;
     cout << "the put price is " << resultPut << endl;
+    cout << "the double digit price is " << resultDD << endl;
+    
 }

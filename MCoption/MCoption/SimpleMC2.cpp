@@ -5,9 +5,10 @@
 //  Created by 一帆朱 on 2021-01-03.
 //
 
-#include "SimpleMC.hpp"
+#include "SimpleMC2.hpp"
+#include <memory>
 
-double SimpleMonteCarlo1(const PayOff& thePayOff,
+double SimpleMonteCarlo2(const PayOff& thePayOff,
                          double Expiry,
                          double Spot,
                          double Vol,
