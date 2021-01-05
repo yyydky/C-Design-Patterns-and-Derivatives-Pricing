@@ -8,8 +8,12 @@
 #include <iostream>
 #include "Random1.hpp"
 //#include "SimpleMC.hpp"
-#include "SimpleMC2.hpp"
-#include "DoubleDigital.hpp"
+//#include "SimpleMC2.hpp"
+//#include "DoubleDigital.hpp"
+//#include "SimpleMC3.hpp"
+//#include "Vanilla1.hpp"
+#include "SimpleMC4.hpp"
+#include "Vanilla2.hpp"
 #include <cmath>
 using namespace std;
 //https://zhuanlan.zhihu.com/p/134759744
@@ -79,27 +83,27 @@ int main(int argc, const char * argv[]) {
     PayOffCall callPayOff(Strike);
     PayOffPut putPayOff(Strike);
     PayOffDoubleDigital thePayOff(Low, Up);
+    VanillaOption theOption(thePayOff, Expiry);
     
-    double resultCall = SimpleMonteCarlo2(callPayOff,
-                                          Expiry,
-                                          Spot,
-                                          Vol,
-                                          r,
-                                          NumberOfPaths);
-    double resultPut = SimpleMonteCarlo2(putPayOff,
-                                         Expiry,
-                                         Spot,
-                                         Vol,
-                                         r,
-                                         NumberOfPaths);
-    double resultDD = SimpleMonteCarlo2(thePayOff,
-                                        Expiry,
+//    double resultCall = SimpleMonteCarlo2(callPayOff,
+//                                          Expiry,
+//                                          Spot,
+//                                          Vol,
+//                                          r,
+//                                          NumberOfPaths);
+//    double resultPut = SimpleMonteCarlo2(putPayOff,
+//                                         Expiry,
+//                                         Spot,
+//                                         Vol,
+//                                         r,
+//                                         NumberOfPaths);
+    double resultDD = SimpleMonteCarlo4(theOption,
                                         Spot,
                                         Vol,
                                         r,
                                         NumberOfPaths);
-    cout << "the call price is " << resultCall << endl;
-    cout << "the put price is " << resultPut << endl;
+//    cout << "the call price is " << resultCall << endl;
+//    cout << "the put price is " << resultPut << endl;
     cout << "the double digit price is " << resultDD << endl;
     
 }

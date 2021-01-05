@@ -14,6 +14,11 @@
 		8E4B0D6F25A25CD70098B265 /* PayOff2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D6D25A25CD70098B265 /* PayOff2.cpp */; };
 		8E4B0D7325A267450098B265 /* SimpleMC2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D7125A267440098B265 /* SimpleMC2.cpp */; };
 		8E4B0D8D25A26F2B0098B265 /* DoubleDigital.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D8B25A26F2B0098B265 /* DoubleDigital.cpp */; };
+		8E4B0D9125A2D0720098B265 /* Vanilla1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D8F25A2D0720098B265 /* Vanilla1.cpp */; };
+		8E4B0D9525A2D16E0098B265 /* SimpleMC3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9325A2D16E0098B265 /* SimpleMC3.cpp */; };
+		8E4B0D9925A3AEF00098B265 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9725A3AEF00098B265 /* PayOff3.cpp */; };
+		8E4B0D9D25A41F1B0098B265 /* Vanilla2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9B25A41F1B0098B265 /* Vanilla2.cpp */; };
+		8E4B0DA125A421910098B265 /* SimpleMC4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9F25A421910098B265 /* SimpleMC4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +48,16 @@
 		8E4B0D7225A267440098B265 /* SimpleMC2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleMC2.hpp; sourceTree = "<group>"; };
 		8E4B0D8B25A26F2B0098B265 /* DoubleDigital.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleDigital.cpp; sourceTree = "<group>"; };
 		8E4B0D8C25A26F2B0098B265 /* DoubleDigital.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleDigital.hpp; sourceTree = "<group>"; };
+		8E4B0D8F25A2D0720098B265 /* Vanilla1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vanilla1.cpp; sourceTree = "<group>"; };
+		8E4B0D9025A2D0720098B265 /* Vanilla1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vanilla1.hpp; sourceTree = "<group>"; };
+		8E4B0D9325A2D16E0098B265 /* SimpleMC3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC3.cpp; sourceTree = "<group>"; };
+		8E4B0D9425A2D16E0098B265 /* SimpleMC3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleMC3.hpp; sourceTree = "<group>"; };
+		8E4B0D9725A3AEF00098B265 /* PayOff3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PayOff3.cpp; sourceTree = "<group>"; };
+		8E4B0D9825A3AEF00098B265 /* PayOff3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PayOff3.hpp; sourceTree = "<group>"; };
+		8E4B0D9B25A41F1B0098B265 /* Vanilla2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vanilla2.cpp; sourceTree = "<group>"; };
+		8E4B0D9C25A41F1B0098B265 /* Vanilla2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vanilla2.hpp; sourceTree = "<group>"; };
+		8E4B0D9F25A421910098B265 /* SimpleMC4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC4.cpp; sourceTree = "<group>"; };
+		8E4B0DA025A421910098B265 /* SimpleMC4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleMC4.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +103,16 @@
 				8E4B0D6E25A25CD70098B265 /* PayOff2.hpp */,
 				8E4B0D8B25A26F2B0098B265 /* DoubleDigital.cpp */,
 				8E4B0D8C25A26F2B0098B265 /* DoubleDigital.hpp */,
+				8E4B0D8F25A2D0720098B265 /* Vanilla1.cpp */,
+				8E4B0D9025A2D0720098B265 /* Vanilla1.hpp */,
+				8E4B0D9325A2D16E0098B265 /* SimpleMC3.cpp */,
+				8E4B0D9425A2D16E0098B265 /* SimpleMC3.hpp */,
+				8E4B0D9725A3AEF00098B265 /* PayOff3.cpp */,
+				8E4B0D9825A3AEF00098B265 /* PayOff3.hpp */,
+				8E4B0D9B25A41F1B0098B265 /* Vanilla2.cpp */,
+				8E4B0D9C25A41F1B0098B265 /* Vanilla2.hpp */,
+				8E4B0D9F25A421910098B265 /* SimpleMC4.cpp */,
+				8E4B0DA025A421910098B265 /* SimpleMC4.hpp */,
 			);
 			path = MCoption;
 			sourceTree = "<group>";
@@ -150,11 +175,16 @@
 			files = (
 				8E4B0D6125A183690098B265 /* Random1.cpp in Sources */,
 				8E4B0D5625A179780098B265 /* SimpleMCMain1.cpp in Sources */,
+				8E4B0D9925A3AEF00098B265 /* PayOff3.cpp in Sources */,
 				8E4B0D8D25A26F2B0098B265 /* DoubleDigital.cpp in Sources */,
 				8E4B0D7325A267450098B265 /* SimpleMC2.cpp in Sources */,
 				8E4B0D6725A244D50098B265 /* PayOff1.cpp in Sources */,
+				8E4B0D9525A2D16E0098B265 /* SimpleMC3.cpp in Sources */,
+				8E4B0D9125A2D0720098B265 /* Vanilla1.cpp in Sources */,
+				8E4B0DA125A421910098B265 /* SimpleMC4.cpp in Sources */,
 				8E4B0D6F25A25CD70098B265 /* PayOff2.cpp in Sources */,
 				8E4B0D6B25A249770098B265 /* SimpleMC.cpp in Sources */,
+				8E4B0D9D25A41F1B0098B265 /* Vanilla2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
