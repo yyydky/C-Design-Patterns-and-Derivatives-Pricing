@@ -1,0 +1,52 @@
+//
+//  Parameters.cpp
+//  MCOption3
+//
+//  Created by 一帆朱 on 2021-01-05.
+//
+
+#include "Parameters.hpp"
+
+Parameters::Parameters(const ParametersInner& innerOBject){
+    InnerObjectPtr = innerOBject.clone();
+}
+
+Parameters::Parameters(const Parameters& original){
+    InnerObjectPtr = original.InnerObjectPtr->clone();
+}
+
+Parameters& Parameters::operator=(const Parameters& original){
+    if(this != & original){
+        delete InnerObjectPtr;
+        InnerObjectPtr = original.InnerObjectPtr->clone();
+    }
+    return *this;
+}
+
+Parameters::~Parameters(){
+    delete InnerObjectPtr;
+}
+
+double Parameters::Mean(double time1, double time2) const{
+    double total = Integral(time1, time2);
+    return total / (time2 - time1);
+}
+
+double Parameters::RootMeanSquare(double time1, double time2) const{
+    double total = IntegralSquare(time1, time2);
+    return total / (time2 - time1);
+}
+
+ParametersConstant::ParametersConstant(double constant):Constant(constant), ConstantSquare(constant * constant){};
+
+ParametersInner* ParametersConstant::clone() const{
+    return new ParametersConstant(*this);
+}
+
+double ParametersConstant::Integral(double time1, double time2) const{
+    return(time2-time1)*Constant;
+}
+
+double ParametersConstant::IntegralSquare(double time1, double time2) const{
+    return(time2-time1)*ConstantSquare;
+}

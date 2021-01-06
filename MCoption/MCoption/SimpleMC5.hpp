@@ -5,11 +5,12 @@
 //  Created by 一帆朱 on 2021-01-04.
 //
 
-#ifndef SimpleMC4_hpp
-#define SimpleMC4_hpp
+#ifndef SimpleMC5_hpp
+#define SimpleMC5_hpp
 
-#include "Vanilla2.hpp"
+#include "Vanilla3.hpp"
 #include "Random1.hpp"
+#include "PayOffBridge.hpp"
 #include <cmath>
 using namespace std;
 

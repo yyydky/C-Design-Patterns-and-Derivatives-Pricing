@@ -5,7 +5,7 @@
 //  Created by 一帆朱 on 2021-01-04.
 //
 
-#include "SimpleMC4.hpp"
+#include "SimpleMC5.hpp"
 
 double SimpleMonteCarlo4(const VanillaOption& TheOption,
                          double Spot,
