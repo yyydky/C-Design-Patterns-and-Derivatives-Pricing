@@ -19,6 +19,7 @@
 		8E4B0D9925A3AEF00098B265 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9725A3AEF00098B265 /* PayOff3.cpp */; };
 		8E4B0D9D25A41F1B0098B265 /* Vanilla2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9B25A41F1B0098B265 /* Vanilla2.cpp */; };
 		8E4B0DA125A421910098B265 /* SimpleMC4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0D9F25A421910098B265 /* SimpleMC4.cpp */; };
+		8E4B0E0025A568110098B265 /* Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0DFE25A568110098B265 /* Wrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		8E4B0D9C25A41F1B0098B265 /* Vanilla2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vanilla2.hpp; sourceTree = "<group>"; };
 		8E4B0D9F25A421910098B265 /* SimpleMC4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC4.cpp; sourceTree = "<group>"; };
 		8E4B0DA025A421910098B265 /* SimpleMC4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleMC4.hpp; sourceTree = "<group>"; };
+		8E4B0DFE25A568110098B265 /* Wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wrapper.cpp; sourceTree = "<group>"; };
+		8E4B0DFF25A568110098B265 /* Wrapper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wrapper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				8E4B0D9C25A41F1B0098B265 /* Vanilla2.hpp */,
 				8E4B0D9F25A421910098B265 /* SimpleMC4.cpp */,
 				8E4B0DA025A421910098B265 /* SimpleMC4.hpp */,
+				8E4B0DFE25A568110098B265 /* Wrapper.cpp */,
+				8E4B0DFF25A568110098B265 /* Wrapper.hpp */,
 			);
 			path = MCoption;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				8E4B0DA125A421910098B265 /* SimpleMC4.cpp in Sources */,
 				8E4B0D6F25A25CD70098B265 /* PayOff2.cpp in Sources */,
 				8E4B0D6B25A249770098B265 /* SimpleMC.cpp in Sources */,
+				8E4B0E0025A568110098B265 /* Wrapper.cpp in Sources */,
 				8E4B0D9D25A41F1B0098B265 /* Vanilla2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
