@@ -5,10 +5,12 @@
 //  Created by 一帆朱 on 2021-01-05.
 //
 
-#include "SimpleMC7.hpp"
+#include "SimpleMC8.hpp"
+#include "ParkMiller.hpp"
 #include "Vanilla3.hpp"
 #include "MCStatistics.hpp"
 #include "ConvergenceTable.hpp"
+#include "AntiThetic.hpp"
 #include <iostream>
 using namespace std;
 
@@ -33,12 +35,16 @@ int main(){
     StatisticsMean gatherer;
     ConvergenceTable gethererTwo(gatherer);
 
-    SimpleMonteCarlo6(theOption,
+    RandomParkMiller generator(1);
+    AntiThetic GenTwo(generator);
+    
+    SimpleMonteCarlo7(theOption,
                       Spot,
                       VolParam,
                       rParam,
                       NumberOfPaths,
-                      gethererTwo);
+                      gethererTwo,
+                      GenTwo);
     
     vector<vector<double>> result = gethererTwo.GetResultSoFar();
     cout << "For the call price the results are" << endl;

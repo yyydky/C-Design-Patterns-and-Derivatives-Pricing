@@ -11,12 +11,16 @@
 		8E4B0E1825A5683E0098B265 /* Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E1625A5683E0098B265 /* Wrapper.cpp */; };
 		8E4B0E1C25A56B460098B265 /* ConvergenceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E1A25A56B460098B265 /* ConvergenceTable.cpp */; };
 		8E4B0E2025A56B5F0098B265 /* MCStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E1E25A56B5F0098B265 /* MCStatistics.cpp */; };
-		8E4B0E2825A5768A0098B265 /* SimpleMC7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E2625A5768A0098B265 /* SimpleMC7.cpp */; };
 		8E4B0E2D25A576980098B265 /* Vanilla3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E2B25A576980098B265 /* Vanilla3.cpp */; };
 		8E4B0E3325A576FC0098B265 /* PayOff3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E3125A576FC0098B265 /* PayOff3.cpp */; };
 		8E4B0E3425A576FC0098B265 /* PayOffBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E3225A576FC0098B265 /* PayOffBridge.cpp */; };
-		8E4B0E3825A5771D0098B265 /* Random1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E3725A5771D0098B265 /* Random1.cpp */; };
 		8E4B0E3C25A577400098B265 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E3B25A577400098B265 /* Parameters.cpp */; };
+		8E4B0E4025A579330098B265 /* Random2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E3E25A579330098B265 /* Random2.cpp */; };
+		8E4B0E4425A57D500098B265 /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E4225A57D500098B265 /* Normals.cpp */; };
+		8E4B0E4825A57EC70098B265 /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E4625A57EC70098B265 /* Arrays.cpp */; };
+		8E4B0E4C25A6B7050098B265 /* ParkMiller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E4A25A6B7050098B265 /* ParkMiller.cpp */; };
+		8E4B0E5025A6C3D40098B265 /* AntiThetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E4E25A6C3D40098B265 /* AntiThetic.cpp */; };
+		8E4B0E5425A6C6FF0098B265 /* SimpleMC8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B0E5225A6C6FF0098B265 /* SimpleMC8.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,18 +44,26 @@
 		8E4B0E1B25A56B460098B265 /* ConvergenceTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConvergenceTable.hpp; sourceTree = "<group>"; };
 		8E4B0E1E25A56B5F0098B265 /* MCStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MCStatistics.cpp; path = ../../MCOption3/MCOption3/MCStatistics.cpp; sourceTree = "<group>"; };
 		8E4B0E1F25A56B5F0098B265 /* MCStatistics.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MCStatistics.hpp; path = ../../MCOption3/MCOption3/MCStatistics.hpp; sourceTree = "<group>"; };
-		8E4B0E2625A5768A0098B265 /* SimpleMC7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleMC7.cpp; path = ../../MCOption3/MCOption3/SimpleMC7.cpp; sourceTree = "<group>"; };
-		8E4B0E2725A5768A0098B265 /* SimpleMC7.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SimpleMC7.hpp; path = ../../MCOption3/MCOption3/SimpleMC7.hpp; sourceTree = "<group>"; };
 		8E4B0E2B25A576980098B265 /* Vanilla3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vanilla3.cpp; path = ../../MCOption3/MCOption3/Vanilla3.cpp; sourceTree = "<group>"; };
 		8E4B0E2C25A576980098B265 /* Vanilla3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vanilla3.hpp; path = ../../MCOption3/MCOption3/Vanilla3.hpp; sourceTree = "<group>"; };
 		8E4B0E2F25A576FC0098B265 /* PayOff3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PayOff3.hpp; path = ../../MCoption/MCoption/PayOff3.hpp; sourceTree = "<group>"; };
 		8E4B0E3025A576FC0098B265 /* PayOffBridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PayOffBridge.hpp; path = ../../MCOption3/MCOption3/PayOffBridge.hpp; sourceTree = "<group>"; };
 		8E4B0E3125A576FC0098B265 /* PayOff3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PayOff3.cpp; path = ../../MCoption/MCoption/PayOff3.cpp; sourceTree = "<group>"; };
 		8E4B0E3225A576FC0098B265 /* PayOffBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PayOffBridge.cpp; path = ../../MCOption3/MCOption3/PayOffBridge.cpp; sourceTree = "<group>"; };
-		8E4B0E3625A5771D0098B265 /* Random1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Random1.hpp; path = ../../MCoption/MCoption/Random1.hpp; sourceTree = "<group>"; };
-		8E4B0E3725A5771D0098B265 /* Random1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Random1.cpp; path = ../../MCoption/MCoption/Random1.cpp; sourceTree = "<group>"; };
 		8E4B0E3A25A577400098B265 /* Parameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Parameters.hpp; path = ../../MCOption3/MCOption3/Parameters.hpp; sourceTree = "<group>"; };
 		8E4B0E3B25A577400098B265 /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Parameters.cpp; path = ../../MCOption3/MCOption3/Parameters.cpp; sourceTree = "<group>"; };
+		8E4B0E3E25A579330098B265 /* Random2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random2.cpp; sourceTree = "<group>"; };
+		8E4B0E3F25A579330098B265 /* Random2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Random2.hpp; sourceTree = "<group>"; };
+		8E4B0E4225A57D500098B265 /* Normals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Normals.cpp; sourceTree = "<group>"; };
+		8E4B0E4325A57D500098B265 /* Normals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Normals.hpp; sourceTree = "<group>"; };
+		8E4B0E4625A57EC70098B265 /* Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays.cpp; sourceTree = "<group>"; };
+		8E4B0E4725A57EC70098B265 /* Arrays.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Arrays.hpp; sourceTree = "<group>"; };
+		8E4B0E4A25A6B7050098B265 /* ParkMiller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParkMiller.cpp; sourceTree = "<group>"; };
+		8E4B0E4B25A6B7050098B265 /* ParkMiller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParkMiller.hpp; sourceTree = "<group>"; };
+		8E4B0E4E25A6C3D40098B265 /* AntiThetic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AntiThetic.cpp; sourceTree = "<group>"; };
+		8E4B0E4F25A6C3D40098B265 /* AntiThetic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AntiThetic.hpp; sourceTree = "<group>"; };
+		8E4B0E5225A6C6FF0098B265 /* SimpleMC8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMC8.cpp; sourceTree = "<group>"; };
+		8E4B0E5325A6C6FF0098B265 /* SimpleMC8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SimpleMC8.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +96,8 @@
 		8E4B0E0D25A5682C0098B265 /* MCOption5 */ = {
 			isa = PBXGroup;
 			children = (
-				8E4B0E3725A5771D0098B265 /* Random1.cpp */,
-				8E4B0E3625A5771D0098B265 /* Random1.hpp */,
+				8E4B0E4A25A6B7050098B265 /* ParkMiller.cpp */,
+				8E4B0E4B25A6B7050098B265 /* ParkMiller.hpp */,
 				8E4B0E0E25A5682C0098B265 /* main.cpp */,
 				8E4B0E3125A576FC0098B265 /* PayOff3.cpp */,
 				8E4B0E2F25A576FC0098B265 /* PayOff3.hpp */,
@@ -101,8 +113,16 @@
 				8E4B0E1B25A56B460098B265 /* ConvergenceTable.hpp */,
 				8E4B0E2B25A576980098B265 /* Vanilla3.cpp */,
 				8E4B0E2C25A576980098B265 /* Vanilla3.hpp */,
-				8E4B0E2625A5768A0098B265 /* SimpleMC7.cpp */,
-				8E4B0E2725A5768A0098B265 /* SimpleMC7.hpp */,
+				8E4B0E3E25A579330098B265 /* Random2.cpp */,
+				8E4B0E3F25A579330098B265 /* Random2.hpp */,
+				8E4B0E4225A57D500098B265 /* Normals.cpp */,
+				8E4B0E4325A57D500098B265 /* Normals.hpp */,
+				8E4B0E4625A57EC70098B265 /* Arrays.cpp */,
+				8E4B0E4725A57EC70098B265 /* Arrays.hpp */,
+				8E4B0E4E25A6C3D40098B265 /* AntiThetic.cpp */,
+				8E4B0E4F25A6C3D40098B265 /* AntiThetic.hpp */,
+				8E4B0E5225A6C6FF0098B265 /* SimpleMC8.cpp */,
+				8E4B0E5325A6C6FF0098B265 /* SimpleMC8.hpp */,
 			);
 			path = MCOption5;
 			sourceTree = "<group>";
@@ -163,16 +183,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4B0E5425A6C6FF0098B265 /* SimpleMC8.cpp in Sources */,
 				8E4B0E2025A56B5F0098B265 /* MCStatistics.cpp in Sources */,
 				8E4B0E0F25A5682C0098B265 /* main.cpp in Sources */,
 				8E4B0E1C25A56B460098B265 /* ConvergenceTable.cpp in Sources */,
-				8E4B0E3825A5771D0098B265 /* Random1.cpp in Sources */,
+				8E4B0E4425A57D500098B265 /* Normals.cpp in Sources */,
 				8E4B0E3425A576FC0098B265 /* PayOffBridge.cpp in Sources */,
 				8E4B0E3C25A577400098B265 /* Parameters.cpp in Sources */,
 				8E4B0E3325A576FC0098B265 /* PayOff3.cpp in Sources */,
 				8E4B0E2D25A576980098B265 /* Vanilla3.cpp in Sources */,
 				8E4B0E1825A5683E0098B265 /* Wrapper.cpp in Sources */,
-				8E4B0E2825A5768A0098B265 /* SimpleMC7.cpp in Sources */,
+				8E4B0E5025A6C3D40098B265 /* AntiThetic.cpp in Sources */,
+				8E4B0E4025A579330098B265 /* Random2.cpp in Sources */,
+				8E4B0E4825A57EC70098B265 /* Arrays.cpp in Sources */,
+				8E4B0E4C25A6B7050098B265 /* ParkMiller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
