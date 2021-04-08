@@ -2,5 +2,5 @@
 
 Design Pattern Practice in C++ (following C++ Design Patterns and Derivatives Pricing)
 
-Option valuation with Monte Carlo simulation 
+Option valuation with Monte Carlo simulation <br>
 European options
